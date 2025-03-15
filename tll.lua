@@ -41,7 +41,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Enabled'] = (true),
         ['Toggle'] = ('T'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
-        ['Field'] = ('Magnitude'), --[[ Cursor, Magnitude ]]
+        ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (110) },
-        ['TriggerBotField'] = { ['Size'] = (5.5) }, --[[ For offbrands ]]
+        ['TriggerBotField'] = { ['Size'] = (4.5) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (3.5), ['Height'] = (4.5) }
     },
 }
