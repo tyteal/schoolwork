@@ -1,10 +1,10 @@
 shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
-        ['Loader'] = { ['Key'] = ('aQ6fj2aIoHL3ZHG5r2Y5OwIpCqQfWh6y') },
+        ['Loader'] = { ['Key'] = ('ENTER YOUR KEY HERE') },
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (false) },
+        ['Indicators'] = { ['Enabled'] = (true) },
     },
     
     ["SilentAim"] = {
@@ -20,7 +20,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["AimAssist"] = {
-        ['Enabled'] = (false),
+        ['Enabled'] = (true),
         ['Toggle'] = ('C'), --[[ For Target Mode ]]
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
@@ -39,26 +39,26 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
     ["TriggerBot"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('T'),
+        ['Toggle'] = ('E'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
         
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (23), Y = (48) }, ['[TacticalShotgun]'] = { X = (48), Y = (48) }, ['[Revolver]'] = { X = (28), Y = (48) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (50) }, ['[TacticalShotgun]'] = { X = (50), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (false), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
-        ['Falling'] = { ['Enabled'] = (false) }, --[[ Anti Fall ]]
-        ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
+        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
+        ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
+        ['Jumping'] = { ['Enabled'] = (true) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 150 }
     },  
 
-    ['Raid Awareness'] = { ['Enabled'] = (false), ['Select'] = ('T'), ['Clear'] = ('Z'), ['Outlines'] = (false), ['Box'] = (true), ['Name'] = (true) },
+    ['Raid Awareness'] = { ['Enabled'] = (true), ['Select'] = ('T'), ['Clear'] = ('Z'), ['Outlines'] = (false), ['Box'] = (true), ['Name'] = (true) },
 
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
         ['Cooldown Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.35), ['[Revolver]'] = (0.13) } },                                                                                                                                                                                       
@@ -90,7 +90,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (110) },
         ['TriggerBotField'] = { ['Size'] = (4.5) }, --[[ For offbrands ]]
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (2.5), ['Height'] = (3.0) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (8), ['Height'] = (8) }
     },
 }
 
