@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.122), ['Air'] = (0.136), ['Automated'] = (true), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.125), ['Air'] = (0.122), ['Automated'] = (true), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
@@ -44,7 +44,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
-        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
+        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.079), ['Air'] = (0.078), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
