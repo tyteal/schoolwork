@@ -1,4 +1,4 @@
-shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
+ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
         ['Loader'] = { ['Key'] = ('X9V3HLnkLUflaQcYLMLiWrHdzBW3qYTY') },
     },
@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.101), ['Air'] = (0.101), ['Automated'] = (true), ['Stabilize'] = (4.2), ['YStabilize'] = { ['Enabled'] = (true), ['Value'] = (2) } },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.078), ['Air'] = (0.0.78), ['Automated'] = (true), ['Stabilize'] = (4.2), ['YStabilize'] = { ['Enabled'] = (true), ['Value'] = (2) } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
@@ -44,11 +44,11 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
-        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.088), ['Air'] = (0.086), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
+        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.078), ['Air'] = (0.076), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (24), Y = (40) }, ['[TacticalShotgun]'] = { X = (24), Y = (40) }, ['[Revolver]'] = { X = (24), Y = (40) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (27), Y = (40) }, ['[TacticalShotgun]'] = { X = (27), Y = (40) }, ['[Revolver]'] = { X = (27), Y = (40) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
