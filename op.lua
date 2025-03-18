@@ -1,6 +1,6 @@
 shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
-        ['Loader'] = { ['Key'] = ('sD74L8VkUF2HzJvayzUYJg28REhGPOfG') },
+        ['Loader'] = { ['Key'] = ('X9V3HLnkLUflaQcYLMLiWrHdzBW3qYTY') },
     },
     
     ["Universal"] = {
@@ -9,7 +9,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["SilentAim"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('C'), --[[ For Target Mode ]]
+        ['Toggle'] = ('T'), --[[ For Target Mode ]]
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Target'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
@@ -39,7 +39,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
     ["TriggerBot"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('E'),
+        ['Toggle'] = ('T'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
